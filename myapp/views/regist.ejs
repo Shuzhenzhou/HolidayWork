@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/regist.css">
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/regist.js"></script>
+    <style type="text/css">
+        body,
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            width: 100%;
+            height: 40px;
+            background: green;
+        }
+        
+        header .box {
+            width: 1000px;
+            height: 100%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <div class="box-left">
+                <h1><a href="/index">博客</a></h1>
+            </div>
+            <div class="box-right">
+
+            </div>
+        </div>
+    </header>
+    <form class="form-horizontal">
+        <h2>注册</h2>
+        <div class="tip"></div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">用户名</label>
+            <div class="col-sm-8">
+                <input type="email" class="form-control" id="username" placeholder="用户名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-8">
+                <input type="password" class="form-control" id="password" placeholder="密码">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label>
+                <input type="checkbox">成为管理员
+              </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default" id="btn">注册</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
